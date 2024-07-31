@@ -4,8 +4,20 @@ body{
 
 .proyecto{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+}
+
+.title-pry{
+    text-shadow: -2px 2px 3px rgb(12, 92, 5);
+}
+
+.navbar, .navbar-brand{
+    padding: 5px 0px 0px 0px;
+}
+
+#proyecto-1{
+    background-image: url('assets/clon-google-dark.webp');
 }
 
 #proyecto-2{

@@ -6,4 +6,27 @@ Fue desarrollado con HTML, CSS y JS con el uso del framework de UI, Bootstrap ut
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto.
 
-Proyecto desplegado.
+## Secciones de mi sitio
+
+### Presentación
+![Presentación](assets/1.png)
+
+### Habilidades
+![Habilidades](assets/2.png)
+
+### Proyectos y testimonios
+![Proyectos y testimonios](assets/3.png)
+
+### Contacto
+![Contacto](assets/4.png)
+
+## Tecnologías
+
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+
+---
+
+Desarrollado con amor :cupid: por [Rosaura](https://www.instagram.com/rovacach_03?igsh=MWN0Z3pha2J5YnVxaw==) en [Tecnhnolochicas PRO](https://tecnolochicas.mx)

@@ -33,3 +33,7 @@ body{
 .testi-character{
     height: 700px;
 }
+
+.tittle-test{
+    text-shadow: -2px 2px 5px rgb(12, 92, 5);
+}

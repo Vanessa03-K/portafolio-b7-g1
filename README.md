@@ -6,7 +6,7 @@ Fue desarrollado con HTML, CSS y JS con el uso del framework de UI, Bootstrap ut
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto.
 
-[Página desplegada](http://127.0.0.1:5500/portafolio/index.html)
+[Página desplegada]([http://127.0.0.1:5500/portafolio/index.html](https://main--precious-sprinkles-b84a08.netlify.app))
 
 ## Secciones de mi sitio
 

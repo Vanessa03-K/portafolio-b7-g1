@@ -6,8 +6,6 @@ Fue desarrollado con HTML, CSS y JS con el uso del framework de UI, Bootstrap ut
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto.
 
-[Página desplegada](https://main--precious-sprinkles-b84a08.netlify.app)
-
 ## Secciones de mi sitio
 
 ### Presentación

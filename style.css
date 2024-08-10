@@ -9,7 +9,7 @@ body{
 }
 
 .title-pry{
-    text-shadow: -2px 2px 3px rgb(12, 92, 5);
+    text-shadow: -2px 2px 5px rgb(0, 0, 0);
 }
 
 .navbar, .navbar-brand{
@@ -30,10 +30,7 @@ body{
     align-items: center;
 }
 
-.testi-character{
-    height: 700px;
-}
-
 .tittle-test{
-    text-shadow: -2px 2px 5px rgb(12, 92, 5);
+    color:white;
+    text-shadow: -2px 2px 2px rgb(0, 0, 0);
 }

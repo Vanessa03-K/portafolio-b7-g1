@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Sobre mí</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#presentacion">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Habilidades</a>
+                            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Proyectos</a>
+                            <a class="nav-link text-white" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Testimonios</a>
+                            <a class="nav-link text-white" href="#testimonios">Testimonios</a>
                         </li>
                     </ul>
                 </div>
@@ -47,21 +47,33 @@
 
     <main>
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="assets/rovacach-myself.png" class="d-block mx-lg-auto img-thumbnail p-4" alt="icono-rovacach">
+        <section id="presentacion" class="container col-xxl-10 px-5 py-0">
+            <div class="row flex-lg-row-reverse align-items-center g-5">
+                <div class="col-10 col-sm-8 col-lg-5">
+                    <img src="assets/rovacach-myself.png" class="d-block mx-lg-auto img-thumbnail p-4"
+                        alt="icono-rovacach">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <h1 id="app" class=" display-5 fw-bold text-body-emphasis lh-1 mb-3">Rosaura Castillo</h1>
                     <p class="lead">Una desarrolladora mini, dibujante, ilustradora, repostera en tiempos libres y
                         amante de los animales. ¡Adoro My Little Pony! ¿Es extraño? No creo, adoro los ponis.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Contáctame</button>
-                        <button type="button"
-                            class="btn btn-outline-danger btn-lg px-4">rosaura.vanessa@gmail.com</button>
+
+
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn btn-success btn-lg px-4 me-md-2" data-bs-toggle="collapse"
+                            href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Contáctame
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+
+                            Some placeholder content for the collapse component. This panel is hidden by default but
+                            revealed when the user activates the relevant trigger.
+                        </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -130,50 +142,37 @@
                     <div id="proyecto-1"
                         class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> <!--Texto de carta-->
-                            <h3 class="title-pry pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+                            <h3 class="title-pry pt-5 mt-5 mb-3 fs-2 fw-semibold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
+                                    <i class="bi-r-circle-fill" style="font-size: 4ch;"></i>
                                 </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
+                                <li class="d-flex align-items-center me-3 title-pry">
+                                    <i class="bi-binoculars" style="font-size: 4ch;"></i>
                                 </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
+                                <li class="d-flex align-items-center title-pry">
+                                    <small>Bootcamp <br> Tecnhnolochicas</small>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="col"> <!--contenedor de la carta-->
+                <div class="col"> <!--contenedor de la carta--> 
                     <div id="proyecto-2"
                         class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> <!--Texto de carta-->
-                            <h3 class="title-pry pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ilustraciones</h3>
+                            <h3 class="title-pry pt-5 mt-5 mb-3 fs-2 fw-semibold">Ilustraciones</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
+                                    <i class="bi-r-circle-fill" style="font-size: 4ch;"></i>
                                 </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
+                                <li class="d-flex align-items-center me-3 title-pry">
+                                    <i class="bi-instagram" style="font-size: 4ch;"></i>
                                 </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
+                                <li class="d-flex align-items-center title-pry">
+    
+                                    <small>Instagram</small>
                                 </li>
                             </ul>
                         </div>
@@ -186,7 +185,7 @@
 
             <h2 class="text-center mb-4 border-bottom pb-2"> Testimonios</h2>
 
-            <div id="myCarousel" class="carousel slide mb-6 p-5" data-bs-ride="carousel">
+            <div id="myCarousel" class="carousel carousel-dark slide mb-6" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -201,44 +200,46 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item">
-                        <img src="assets/maria-antonieta.png" class="d-block w-100 testi-character" alt="Imagen-Maria-Antonieta">
-                        <div class="carousel-caption d-none d-md-block ">
-
-                            <h1 class="opacity-80 tittle-test">María Antonieta</h1>
-                            <p class="tittle-test fs-4"> ¿Tiene hambre de pan? ¡Ella sola se hace sus pasteles!</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Info</a></p>
+                        <img src="assets/maria-antonieta.png" height="450" class="mx-auto d-block"
+                            alt="Imagen-Maria-Antonieta">
+                        <div class="carousel-caption d-none d-md-block pt-5 pb-0">
+                            <h3 class="opacity-80 tittle-test">María Antonieta</h3>
+                            <p class="tittle-test fs-6 mb-2"> ¿Tiene hambre de pan? ¡Ella sola se hace sus pasteles!</p>
+                            <p><a class="btn btn-sm btn-success b-3 mb-2" href="https://historia.nationalgeographic.com.es/personajes/maria-antonieta" target="_blank">Info</a></p>
                         </div>
                     </div>
 
                     <div class="carousel-item active">
-                        <img src="assets/avogado6-jp.png" class="d-block w-100 testi-character" alt="Imagen-avogado6-jp">
-                        <div class="carousel-caption d-none d-md-block ">
-
-                            <h1 class="opacity-80 tittle-test">Avogado6_jp</h1>
-                            <p class="tittle-test fs-4">A través del arte expresa sus sentimientos y representa sus emociones.
+                        <img src="assets/avogado6-jp.png" height="450" class="mx-auto d-block"
+                            alt="Imagen-avogado6-jp">
+                        <div class="carousel-caption d-none d-md-block pt-5 pb-0">
+                            <h3 class="opacity-80 tittle-test">Avogado6_jp</h3>
+                            <p class="tittle-test fs-6 mb-2"> A través del arte expresa sus sentimientos y representa sus
+                                emociones.
                             </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Info</a></p>
+                            <p><a class="btn btn-sm btn-success b-3 mb-2" href="https://www.instagram.com/avogado6_jp?igsh=MThxYnZ6bDVncmloZQ==" target="_blank">Info</a></p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="assets/akira-toriyama.png" class="d-block w-100 testi-character" alt="Imagen-akira-toriyama">
-                        <div class="carousel-caption d-none d-md-block ">
-
-                            <h1 class="opacity-80 tittle-test">Akira Toriyama</h1>
-                            <p class="tittle-test fs-4">Sus retroalimentaciones fueron importantes para el desarrollo de
+                        <img src="assets/akira-toriyama.png" height="450" class="mx-auto d-block"
+                            alt="Imagen-akira-toriyama">
+                        <div class="carousel-caption d-none d-md-block pt-5 pb-0">
+                            <h3 class="opacity-80 tittle-test">Akira Toriyama</h3>
+                            <p class="tittle-test fs-6 mb-2">Sus retroalimentaciones fueron importantes para el desarrollo de
                                 Dragon Ball Súper.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Info</a></p>
+                            <p><a class="btn btn-sm btn-success b-3 mb-2" href="https://dragonball.fandom.com/es/wiki/Akira_Toriyama" target="_blank">Info</a></p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="assets/albert-einstain.png" class="d-block w-100 testi-character" alt="Imagen-Albert-Einstein">
-                        <div class="carousel-caption d-none d-md-block ">
-
-                            <h1 class="opacity-80 tittle-test">Albert Einstein</h1>
-                            <p class="tittle-test fs-4">Ella fue de mucha ayuda para formular la Teoría de la Relatividad.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Info</a></p>
+                        <img src="assets/albert-einstain.png" height="450" class="mx-auto d-block"
+                            alt="Imagen-Albert-Einstein">
+                        <div class="carousel-caption d-none d-md-block pt-5 pb-0">
+                            <h3 class="opacity-80 tittle-test">Albert Einstein</h3>
+                            <p class="tittle-test fs-6 mb-2">Ella fue de mucha ayuda para formular la Teoría de la
+                                Relatividad.</p>
+                            <p><a class="btn btn-sm btn-success" href="https://historia.nationalgeographic.com.es/personajes/einstein" target="_blank">Info</a></p>
                         </div>
                     </div>
 
@@ -308,7 +309,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 

@@ -17,7 +17,7 @@ typewriter
   .pauseFor(100)
   .deleteChars(50)
   .typeString('Ilustradora')
-  .pauseFor(200)
+  .pauseFor(150)
   .deleteChars(50)
   .typeString('Repostera novata')
   .pauseFor(500)
